@@ -1,0 +1,48 @@
+0. VS code / subline 
+1. Live Server.
+
+HTML :- Structure Language. HTML is used to make the structure of web-page. -> .html extension, 
+skeleton -> structure bone. -> HTML is use to make structure.
+Styling :- CSS is use to make the styling or make the web-page beautiful.
+JS-DOM :- JavaScript Document object Modal (Maninpulation) It is use to make a web page functional.
+
+The lastest version of HTML is HTML6 but all browser support HTML5 ?
+
+What is a tag ?
+
+
+Attribute:- Attribute are the things which we specify for a tag or element. It specifies the properties of a tag.
+
+!DOCTYPE html :- It is use to declare the document type and the DOCTYPE will tell the browser that the HTML content is going to start from here.
+
+Different types of heading :- 
+1. h1 :- Biggest
+2. h2 
+3. h3 
+4. h4 
+5. h5 
+6. h6 :- Smallest
+
+Paragraph :- <p> this tag is used to make a Paragraph.
+Dummy tab shortcut :- lorem50 (it will write the 50 random words)
+
+Anchor tag:- <a></a> Anchor tag is use to make a link.
+href :- hyper-reference. This is the url where you want to redirect your website.
+
+Image tag:-  <img> You can put a image using img tag.
+src :- source :- We have to give the path of the image.
+alt :- alternate :- Here we will give the alternate text if the image is not found there. If the image is not available at that path than the alt text will be visible.
+
+
+To open a folder in vscode shortcut is :- CTRL + K , CTRL + O
+To copy paste the content :- First select the content :- ALt + Shift + arrow key.
+To move the content :- Alt  + Arrow key.
+To Format the code :- Ctrl + Shift + F (Windows), (Linux) Ctrl + Shift + I, (Mac)Command + shift + F
+To open any file from your current folder. Ctrl + P -> Write the file name and press enter.
+To find any word in a file you can use :- Ctrl + F.
+To switch between opened tabs :- Ctrl + tab.
+
+
+Home Work :- 
+ 
+
