@@ -62,3 +62,33 @@ f. submit :- It is used to submit the form.
 g. Date:- It is use to make a date box.
 h. Time :- It is use to enter a time.
 i. Color:- It is use to choose a color.
+
+02/10/2022:- Sunday
+1. Fieldset :- Fieldset is used to group similar kind of elements inside a form. <fieldset>
+2. Legend :- Legend is used to give a tip or notes to a fields.
+3. textarea :- Textarea if a input box which s used to make a resizable input box. 
+
+Github.com 
+1. Create a account over Github.
+2. Download git from :- https://git-scm.com/downloads
+3. Go to github.com :- Click on new to create a new Repo. -> Name the repo -> Click on create Repository.
+4. go to terminal on vscode and write these commands :- 
+    a. git init :- It is used to intialize the git. When you use this command you can see .git folder.
+    b. git add . :- It is used to add all the files to stage on the git.
+    c. git commit -m "<Message>" :- It is use to commit the code over the git. -m Will tell the git that there is some message.
+    copy and paste the 3 lines from that repo 
+        git remote add origin https://github.com/vinaypatel1437/repos.git
+        git branch -M main
+        git push -u origin main
+
+    d. git push origin main :- It will push your code to the main branch.
+
+    e. git checkout -b "<branch-name>" :- You can create a new branch on your repository.
+
+5. How to clone anyone's repo :- git clone https://github.com/vinaypatel1437/Pep-reels.git
+
+
+
+
+
+
