@@ -46,3 +46,19 @@ To switch between opened tabs :- Ctrl + tab.
 Home Work :- 
  
 
+
+
+29/09/2022 :- Thruday
+
+0. Form :- Form tag is basically use to make a new form in HTML.
+1. Input Box :- Input box are the boxes where we can type something.
+type :- 
+a. text :- Using input type text we can write any text into any.
+b. email :- We can write email address into it.
+c. Password :- We can type passwords into it.
+d. checkbox :- Where we can see the tick when we click on that button. 
+e. radio :- It is a radio button where we can have example as choosing between male and female we can use radio. If the name of all the radio buttons are same then we can choose only one of them.
+f. submit :- It is used to submit the form.
+g. Date:- It is use to make a date box.
+h. Time :- It is use to enter a time.
+i. Color:- It is use to choose a color.
