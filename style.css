@@ -1,0 +1,16 @@
+/* tr {
+    background-color: green;
+}
+#coloor {
+    background-color: aqua;
+}
+.colors {
+    background-color: brown;
+} */
+
+img[alt="image1"] {
+    width: 100px;
+    height: 100px;
+}
+/* Preference :- 
+inline styling > id > class > tag */
