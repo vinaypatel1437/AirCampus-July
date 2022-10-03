@@ -87,8 +87,32 @@ Github.com
 
 5. How to clone anyone's repo :- git clone https://github.com/vinaypatel1437/Pep-reels.git
 
+1. CSS :- Cascading style sheet.
+Why cascading ? :- We can trigger or use the same selector multiple times that why it is known as cascading style sheet.
+
+How many ways we can apply the style to a HTML page ?
+1. Inline styling. :- In inline styling we use style attribute whithin a tag.
+2. Using style tag (In the same file);
+3. Using external file.
+
+Types of Selectors in CSS :-
+1. Element Selector :- We need to directly select name of the tag. :- If i want to choose all the humans from earth than i will use element selector.
+2. Class Selector :- If we want to select a class we use . before the class name. :- If i want to choose July-batch students i will go for class.
+3. Id Selector :- If we want to select a id we use # before the id name. :- If i want to choose AHAD than i will go with id.
+4. Attribute selector :- If i want to choose all the humans who are girls than i will use Attribute selector.
+Real life example :- 
+<human gender="girl">
+human[gender="girl]
+
+This is HTML example :- 
+<img src="something" alt="Background">
+img[alt="Background] {
+    
+}
 
 
-
-
-
+Inline > ID > class > element 
+We can't give same id to different elements.
+All the elements have different id's .
+If we are working on any framework than we can't give same id to different elements.
+It is not a good practice to use the same id for different elements.
