@@ -92,8 +92,8 @@ Why cascading ? :- We can trigger or use the same selector multiple times that w
 
 How many ways we can apply the style to a HTML page ?
 1. Inline styling. :- In inline styling we use style attribute whithin a tag.
-2. Using style tag (In the same file);
-3. Using external file.
+2. Using style tag (Internal Styling) (In the same file);
+3. Using external file. (External Styling).
 
 Types of Selectors in CSS :-
 1. Element Selector :- We need to directly select name of the tag. :- If i want to choose all the humans from earth than i will use element selector.
@@ -102,7 +102,7 @@ Types of Selectors in CSS :-
 4. Attribute selector :- If i want to choose all the humans who are girls than i will use Attribute selector.
 Real life example :- 
 <human gender="girl">
-human[gender="girl]
+human[gender="girl"]
 
 This is HTML example :- 
 <img src="something" alt="Background">
@@ -110,9 +110,131 @@ img[alt="Background] {
     
 }
 
+5. Universal Sector :- * , to select all the elements.
+6. .hello p :- Using space we can have hirarchy in selectors that means it will select all the referred elements with the give parent.
+7. .hello > p :- It will only select the direct childrens of the parent element.
 
 Inline > ID > class > element 
 We can't give same id to different elements.
 All the elements have different id's .
 If we are working on any framework than we can't give same id to different elements.
 It is not a good practice to use the same id for different elements.
+
+Comments in CSS :- 
+Shortcut :- Using Ctrl + ? or Command + ? (mac)
+/* Comment */
+
+CSS colors :- 
+1. color:- Using color property i can give color to the text.
+h1 {
+    color: blue;
+}
+not colour it is color.
+2. Background color :- Using background and background-color we can give color to the background.
+h1 {
+    background: blue;
+}
+h1 {
+    background-color: blue;
+}
+
+3. border color :- Using border and border-color proptery we can give color to a border.
+h1 {
+    border: 1px solid red;
+}
+h1 {
+    border: 1px solid;
+    border-color: blue;
+}
+
+
+In how many ways we can give colors:- 
+1. Using color name:- If you know the color name you can directly pass the color.
+h1 {
+    color: blue;
+}
+2. Using RGB value:- You can give color using RCG values.
+h1 {
+    color: rgb(255, 255, 255);
+}
+3. Using HEX value :- You can give color using HEX value;
+h1 {
+    color: #fff;
+}
+4. Using HSL value :- you can give color using HSL value;
+h1 {
+    color: hsl(30, 50%, 40%);
+}
+hue,saturation, lightness;
+
+CSS Background :- 
+1. background-color;
+2. opacity :- Using opacity we can give the opacity/transparency of the element. The value of opacity ranges between 0 to 1.
+3. background-image :- Using background-image we can give the image to the background of any element.
+4. background-size :- Using it you can give the size of the background image.
+h1 {
+    background-size: 50% 50%; // First width than height
+}
+5. background-repeat:- If we can to give the repeatness of the background image than we will use this property.
+6. background:- Background is the shorhand of most of the background properties.
+background: red url("image-path") repeat-x right top 50% 50%;
+
+
+CSS borders
+CSS margins and padding
+CSS height, width
+px, vh, vw, %
+CSS box model is the way to see CSS in browser.
+
+CSS text, CSS posittions, CSS display, CSS flex box, CSS grid, CSS animation.
+/* 0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10 -> a
+11 -> b
+12 -> c
+13 -> d
+14 -> e
+15 -> f */
+
+/* Binary :- 0,1
+Octal :- 0-7
+decimal :- 0-9
+hexa-decimal :- 0-15 -> 0-f */
+/* 1000 -> 8 */ 
+
+
+
+
+06/10/2022 --> Thrusday
+Sizes in CSS :- 
+1. px :- px stands for pixel and your screen is divided into thousands of pixels. So what-ever size you will give it will be taken as pixel if you use px. 1px is very very small you can't even see it.
+2. vh :- viewport-height . It will take the size according to the height of the viewport.
+3. vw :- viewport-width . It will take the size according to the width of viewport.
+4. % :- It will take the size according to its parents.
+5. rem :- default value of 1rem = 16px. It is related to the root (html) size. in rem r stands for root.
+6. em :- default value of 1 em = 16px. It is related to its parent's size. 
+Note :- If we are not providing any unit than it will take default as px.
+
+1. px is used for a static pages.
+2. % vh and vw are used for responsive pages.
+
+
+1. height:- Vertical size of an element is known as height.
+2. width :- Horizontal size of an Element is known as width.
+
+CSS Borders :- Boundary of an element is known as borders.
+1. border-style:- It is used to give the style to the border.
+2. border-color :- It is used to give the color to the border.
+3. border-width:- It is used to give the width or the thickness of the border.
+Shorthand of all :- border: width style color;
+Eg:- border: 1px solid red;
+4. border-radius:- It is use to give the radius to the border.  
+
