@@ -186,7 +186,7 @@ CSS height, width
 px, vh, vw, %
 CSS box model is the way to see CSS in browser.
 
-CSS text, CSS posittions, CSS display, CSS flex box, CSS grid, CSS animation.
+CSS text, CSS positions, CSS display, CSS flex box, CSS grid, CSS animation.
 /* 0
 1
 2
@@ -237,4 +237,58 @@ CSS Borders :- Boundary of an element is known as borders.
 Shorthand of all :- border: width style color;
 Eg:- border: 1px solid red;
 4. border-radius:- It is use to give the radius to the border.  
+
+11/10/2022 --> Tuesday
+Margins and padding.
+Margin :- Margin is the space around a container (element). In margin it takes space from outside.
+Padding :- In padding container will take space from inside.
+
+Box model :- 
+Box model is use to see how our element is ?
+For example :- 
+What is the size of element?
+What is the paddin we have given ?
+What is the border it is taking ?
+What is the margin we have provided ?
+And after analyzing our box model we can align our box as we need.
+
+What are the properties inside a box model ?
+1. Box size.
+2. Box padding.
+3. Box border.
+4. Box margin.
+
+
+Outline :- Outline is similar to border but it will not change the box model as it is not a part of it.
+Eg:- outline: 1px solid red;
+outline-offset :- It will give space between border and outline.
+
+CSS Text :- 
+Color :- Using color property we can change the color of out text.
+text-align :- It is used to align the text either of the side like left, right, center, jsutify.
+direction:- Using direction we can give direction to our text like ltr (left to right) and rtl (right to left).
+unicode-bidi :- It basically changes the content or the text according to the direction. That means if we are doing rtl than it will start to write the text from right to left.
+Text decoration :- 
+text-decoration-color :- It is use to change the color of text-decoration.
+text-decoration-style. :- It will give style to text decoration.
+text-decoration-thickness. :- It will give the width to text decoation
+text-decoation-line :- It specifies what kind of text decoration we want like. underline, line-through, overline.
+shorthand :- 
+text-decoration: line color thickness style.
+E.g :- text-decoartion: overline red 2px wavy;
+
+text-transformation :- It is used to tranform the text in either uppercase, lowercase or capitalize.
+
+Text spacing :- 
+text-indent:- Proper spacing from lect side is known as indentation. Indenation basically works in the first line of a paragraph.
+letter-spacing:- It is use to give space between the letters.
+line-height:- It is use to give the height of line. If we want space between two lines so we need to provide the line-height more than font-size.
+word-spacing:- It is use to give the space between the words.
+white-space :- It will specify how we can handle the white spaces of a paragraph.
+
+Text Shadow:- It is use to give the shadow to our text.
+text-shadow: horizontal vertical blur color;
+E.g. :- text-shadow: 3px 4px 5px red;
+
+
 
