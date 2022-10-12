@@ -1,0 +1,57 @@
+To-do :- 
+1. font in CSS.
+2. float and clear.
+3. Poitions.
+
+
+Fonts in CSS :- 
+1. font-family :- Using font family we can change the font type for our text.
+For google fonts :- https://fonts.google.com/ 
+    a. Select your font.
+    b. Select the type.
+    c. Add it and copy the cdn link.
+    d. Paste it in head tag.
+2. font-style :- Using font style we can give style to our font like italic, oblique, normal.
+3. font-weight:- Using font weight we can give the weight (boldness) to our font. The values can be either in numbers like (100,200,300....) or lighter, bold, bolder. The number will be dependent on the type of font only.
+4. font-variant:- Using font-variant we can provide the different variants to our font like small-caps, normal.
+5. font-size:- Font size is use to give the size to our font either in px, rem, em, vh, vw, %;
+
+CSS icons :- Font awesome icons.
+Steps :- 
+1. Paste this link inside head.
+font-awesome cdn link :- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+2. Choose your font from font-awesome.
+3. Copy the i tag and paste it where-ever you want.
+
+
+Float in CSS :- 
+Using Float property our container will come into another page. Using float our container will float into our parent container.
+float: left, right.
+
+Clear in CSS :- 
+Using clear property our container will not allow any other container to be in the left, right or both direction. So, for example.
+clear: left, right, both;
+
+Note :- You can't use clear and float for the same element at a particular time.
+
+overflow in CSS :-
+Using overflow property our container's childrens will not overflow out of the container else container will increase its size.
+values :- 
+1. auto :- auto will automatically adjust the overflow container.
+2. hidden :- Using hidden the overflow content will hide.
+3. scroll :- Using scroll the overflow content will become scrollable.
+4. visible :- It is the default value of overflow in which the overflow content will be as usual.
+
+
+Positions in CSS :-
+1. static :- By default position of out container is static.
+2. fixed :- Position fixed is use to fix the container in our view-port (white screen). Here we need to specify the position where it need to be fixed using right, left, top, bottom.
+3. sticky :- Position sticky works as a static position until it reaches the given position (left, right, top, bottom) after it reach to same it will work as a fixed position.
+
+Home-Work (HW) :-
+1. Design the header of a website (aircampus header).
+2. Header and chatbot should be positioned as fixed.
+3. Depending on your interest add content into website.
+4. You shoud use.
+a. icons.
+b. google fonts.
