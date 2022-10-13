@@ -1,0 +1,47 @@
+Todo List:- 
+1. Postions -> relative and absolute.
+2. reset CSS.
+3. Container properties in CSS.
+4. Display properties. block, inline, inline-block, none.
+5. Flexbox. (If possible).
+
+
+Positions:- 
+Relative and Absolute.
+Relative :- If we give parent as position relative than we can give absolute to its children and can move inside the parent container where-ever we want.
+Absolute :- If we give children as position absolute than we can move children wherever we want inside the parent.
+
+Note :- If we will not give parent relative than the absolute children will align with respect to the root element.
+
+z-index:- Z-index is the property which we use to align the items in z-axis or we can say the element with maximum z-index will be at the top.
+
+
+Reset CSS :- 
+Why use reset properties ?
+Ans:- Different browser have different default properties so to handle the default behaviour of browsers we have reset property using that we can reset the default properties of all the browsers as same.
+
+
+Container Properties :- 
+If we want a set of elements with the same alignment than we can wrap it into a big container.
+Some common properties of container are :- 
+1. min-height: It is use to provide the minimum height to a container. i.e., If we shirnk the browser than it will not decrease the size below the min-height provided.
+2. max-height: It is use to provide the maximum height to a container. i.e., If we increase the browser size than the height of the container will not increase more than the max-height provided.
+1. min-width: It is use to provide the minimum width to a container. i.e., If we shirnk the browser than it will not decrease the size below the min-width provided.
+2. max-width: It is use to provide the maximum width to a container. i.e., If we increase the browser size than the width of the container will not increase more than the max-width provided.
+
+
+Display properties in CSS :-
+1. Display none :- If we give display none to any element that element will become invisible.
+2. Display block :- By default the div, body, h1-h6, p, table, form, input, li, ul, ol etc are block. Display block means it will not allow any element to come in the same row as it is and make them in another row.
+3. Display inline :- By default sup,sub, span, i, b, strong, em, u,a, button img etc are display inline i.e., it will allow elements to be in the same line. If we give height width to it it will have no effect.
+4. Display inline-block : It will work as a inline element but we can provide the height and width to it and it will work.
+5. Display Initial :- It will take the default display property of the element.
+6. Display Inherit :- If we use this property than it will inherit its parent's display property.
+
+Flexbox :- 
+7. Display flex :- 
+
+
+Tomorrow's class :- 
+Display flex throwly, Code along for display flex.
+ 
