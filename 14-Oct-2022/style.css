@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* When row-direction is row :- justify content will work in horizontal alignment. and align item will work for vertical alginment. 
+When row-direction is column :- Justify content will work in vertical direction and align-items will work in horizontal direction.*/
+/* .outer {
+    background-color: red;
+    height: 70px;
+    width: 150px;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    align-items: end;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    flex-flow: row-reverse wrap;
+    align-content: start;
+    align-items: end;
+}
+.inner, .inner2, .inner3, .inner4 {
+    background-color: aqua;
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+} */
+
+.outer {
+    background-color: aqua;
+    height: 400px;
+    width: 400px;
+    /* justify-content: space-between; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: start; */
+}
+.inner {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    align-self: end;
+    /* flex-basis: 200px; */
+    /* flex-shrink: 5; */
+    /* order: 30; */
+    /* flex-grow: 5; */
+}
+.inner2 {
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    /* flex: 2 3 500px; */
+    /* flex-shrink: 2; */
+    /* flex-grow: 4; */
+    /* order: 20; */
+}
+.inner3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    align-self: start;
+    /* flex-shrink: 10; */
+    /* order: 10; */
+}
+.inner4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    align-self: end;
+    /* order: 10; */
+}
+
+
+
+
+
+
+
+
