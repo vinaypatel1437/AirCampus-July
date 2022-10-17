@@ -30,3 +30,11 @@ Todo :-
     a. SOme buttons.
     b. Some content.
     and so on.
+
+
+
+
+    box-shadow : horizontal vertical blur spread color;
+    e.g. box-shadow: 0 2px 5px 5px black;
+
+    Image link how it works :- https://www.w3schools.com/how-spaces-works3.png
