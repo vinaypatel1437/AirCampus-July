@@ -1,0 +1,28 @@
+Todo :- 
+1. Code Along -> Amazon Static Clone
+
+Requirements :- 
+1. Header :- 
+    a. Header.
+    b. Sub Header.
+2. Content
+    a. Slider.
+    b. Some items.
+    c. Some more items.
+    d. Many more items.
+    e. Once Small Sign in.
+3. Footer
+    a. 1st Footer.
+    b. 2nd Footer.
+
+Bootstrap :- Predefined thing we can use directly in out HTML designs.
+1. Bootstrap website :- 
+https://getbootstrap.com/docs/5.2/getting-started/download/
+2. Bootstrap CDN link :- 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+
+Explore Bootstrap.
+H.W :- Design the Layout of web.whatsapp.com.
