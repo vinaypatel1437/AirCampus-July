@@ -14,10 +14,19 @@ i,button {
     display: flex;
     justify-content: space-between;
 }
+.header2 {
+    display: none;
+}
+.fa-bars {
+    align-self: center;
+    margin: 10px;
+}
+/* max-width :- till the 600px / untill we reach 600px  */
 .logo-img {
     height: 55px;
     margin: 10px;
 }
+
 .left-btn {
     border: none;
     padding: 20px 10px 20px 10px;

@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>w3Schools</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <!-- This is for header which is more than 600px -->
     <div class="header">
         <div class="left-navbar">
             <div class="logo"><img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png"></div>
@@ -27,6 +29,17 @@
             <button class="login">Log in</button>
         </div>
     </div>
+    <!-- This header is for less than 600px. -->
+    <div class="header2">
+        <div class="left-navbar">
+            <i class="fa fa-bars"></i>
+            <div class="logo"><img class="logo-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png"></div>
+        </div>
+        <div class="right-navbar2">
+            <button class="login">Log in</button>
+        </div>
+    </div>
+    
     <div class="content">
         <div class="firstScreen">
             <h1 class="heading">Learn to Code</h1>
