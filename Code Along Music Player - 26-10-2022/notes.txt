@@ -1,0 +1,35 @@
+Code Along Session - Music Player 
+1. Flex -> Header, content, footer.
+2. Grid -> suggestion. 
+3. Responsive design -> header, suggestions
+4. Animations. -> Playing songs.
+
+Todo :- 
+1. Header
+2. Footer
+3. Musics
+4. Music Player with playing music as well as with some animations.
+5. Music Player should be responsive for mobile view, Desktop view (tablet view).
+
+Left out with semantic tags. --> Next session.
+
+
+Semantic Tags :-
+Semantic tags are the tags which we use in html and they define themselves.
+<article> :- Blog, User comments, Newspaper article.
+<header> :- It is used to make some header.
+<footer> :- It is used to make footer.
+<section> :- It is used to make some sections like Chapters, contact details, introduction.
+<aside> :- It is used to make a sidebar.
+<main> :- It is used to make the content or main section into the website.
+<summary> :- Details or summary of some item.
+<nav> :- It is used to make a navbar.
+
+All semantic tags are the div tags only. It will only give the detail of a tag.
+
+H.W :- 
+Go through semantic tags once :- https://www.w3schools.com/html/html5_semantic_elements.asp
+
+Complete the Music Player.
+
+
