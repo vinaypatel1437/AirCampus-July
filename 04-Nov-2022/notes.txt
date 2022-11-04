@@ -1,0 +1,70 @@
+Todo :- 
+    1. Media queries -> inprogress.
+    2. Banner's concept in Assignment.
+    3. keyframes
+    4. global attributes and event attributes.
+    5. meta tag.
+    6. Doctype in html
+    7. pre tag
+    8. mutiple classname with overridding properties.
+    9. all selectors.
+    10. sementic tags kuch.
+    11. gradient.
+    12. bem
+    13. How to connect 2 css together in one html as well js file. --> Done
+    14. transform translate.
+    15. Kuch questions for interviews.
+    16. Container properties.
+    17. flex: 1.
+    
+
+
+
+Server side and client side.
+Desingining (make-up) 
+
+
+Protocols :- Rules and regulations followed by someone.
+
+Protocols in networking / communications.
+1. http :- hyper text transfer protocol.
+2. https:- hyper text transfer protocol secure.
+3. ftp :- file transfer protocol.
+4. udp :-
+5. smtp :-  
+
+world wide web :- 
+https://www.aircampus.in/excelClone :- url 
+Every url is connect with one ip address.
+
+
+
+http and https :-  req/res :- request response       200               400
+Client -> Req                                      (Positive res and negative)Response <- Server
+UI :- designing and user-interection                                                      1. Database. :- sql, mongodb, posgres, Oracle sql, MariaDB
+html/css/js-dom -> Vanilla JS                                                             2. APIs -> NodeJS
+reactjs + reduxjs                                                                         3. ExpressJS
+angularjs                                           MongoDB ExpressJS ReactJS NodeJS :- MERN -> Full Stack Website
+nextjs + reduxjs                                    Database Server UI req/res cycle
+Vuejs -> html/css/reactJS
+
+18*3 => 
+<template><template>
+<style></style>
+<script><script>
+
+
+MEAN :- Monogo express angular node
+MEVN :- " " vue "
+MENN :- " " next "
+SEAN :- sql
+SERN :- 
+SEVN :- 
+SENN :- 
+
+laravel developer :- Python backend, php frontend, Oracle sql, expressjs
+
+
+
+
+
