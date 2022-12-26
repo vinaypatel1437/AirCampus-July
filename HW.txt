@@ -1,0 +1,2 @@
+1. 25/12/2022 :-
+    a. Make a modal and on clicking of any button open it and close it.
