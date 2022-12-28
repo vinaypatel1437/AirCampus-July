@@ -13,16 +13,23 @@
     <button class="hello1 hello2 hello3">Hello2</button>
     <button><h1><h2>Hello3</h2></h1>World</button><button draggable="true" id="dragable_event">Hello4</button>
     <button>Hello5</button> -->
-    <select>
+    <!-- <select>
         <option value="hello">Hello</option>
         <option value="hello2">Hello2</option>
-    </select>
+    </select> -->
+    <form>
+        <input type="text" name="" placeholder="Enter Name" id="">
+        <input type="password" name="" placeholder="Enter password" id="">
+        <!-- <input type="submit" value="Submit" id="submitBtn"> -->
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <!-- <a href="https://www.google.com">Click here for google</a> -->
 </body>
 <script>
-    let sel = document.querySelector("select");
-    sel.addEventListener('click', (e)=>{
-        console.log(e.target.value);
-    })
+    // let sel = document.querySelector("select");
+    // sel.addEventListener('click', (e)=>{
+    //     console.log(e.target.value);
+    // })
     // let button = document.querySelectorAll("button");
     // let dragBtn = document.getElementById("dragable_event");
     // // dragBtn.addEventListener('dragstart', function(e) {
@@ -48,5 +55,11 @@
     // function hello(e) {
     //     console.log(e)
     // }
+    let submitBtn = document.getElementById("submitBtn");
+    // let anchor = document.querySelector("a");
+    submitBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        console.log(e);
+    })
 </script>
 </html>

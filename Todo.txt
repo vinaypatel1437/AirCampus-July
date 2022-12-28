@@ -1,8 +1,9 @@
-1. Basics -> All clear.
-2. Events and event handling. event object
-3. EventListner callback , inline event handler.
-4. Nodelist, node, element and etc.
-5. innerhtml, innertext,
+1. Basics -> All clear. -> Done
+2. Events and event handling. event object -> Done
+3. EventListner callback , inline event handler. -> Done
+4. Nodelist, node, element and etc. -> Done
+5. innerhtml, innertext, -> Done
+6. Elements and its functions :-  createElement, removeChild, appendChild, replaceChild, write.
 7. localstorage. (including JSON object)
 8. implementation using array and object.
 9. File handling.
@@ -12,17 +13,42 @@
 13. API call karna, using API data -> Will make some sample API.
 get, post, patch, delete, put
 
+
+e.preventDefault() :- e.preventDefault is use to cancel the default event of an element.
+
+LocalStorage:- 
+1. setItem :- It is use to setItem into the localStorage.
+2. getItem :- It is use to get the Item from the localStorage.
+3. remove :- It is use to delete a specific item from the localStorage
+4. clear :- It is use to clear whole localStorage.
+
+
+
+
+
+1. createElement :- To create a HTML element we use createElement.
+2. removeChild:- If we want to remove a HTML element we use remove child.
+3. appendChild :- It is used to add an HTML element.
+4. replaceChild :- It is used to replace an exisiting child with new child.
+5. write :- It is use to write into the HTML element in text format.
+
+
 25 -> Sun - Sat
 
 
+=> Difference between className and classList ? 
+<div class="class1 class2 class3 class4" ></div>
+classList :- It will give us the list of the target element. :- ['class1', 'class2', 'class3', 'class4'] ; 
+className:- String format me className. :- "class1 class2 class3 class4" ;
+
 1. e.target -> It has all the information related to the element.
 
-Difference between NodeList and HTMLCollection
+=> Difference between NodeList and HTMLCollection
 1. NodeList is an Array which includes all the nodes either it is HTML element, text, or kuch bhi.
 2. HTMLCollection is an Array which includes includes all the HTML elements.
 
 
-Difference between innerHTML and innerText:- 
+=> Difference between innerHTML and innerText:- 
 1. innerHTML will return everthing which is written inside the element.
 2. innerText will return the text written inside the element.
 
