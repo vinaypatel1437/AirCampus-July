@@ -1,0 +1,5 @@
+1. 25/12/2022 :-
+    a. Make a modal and on clicking of any button open it and close it.
+2. 28/12/2022 :- 
+    a. Make a toDo list:- 
+        it should have remove button. --> Done.

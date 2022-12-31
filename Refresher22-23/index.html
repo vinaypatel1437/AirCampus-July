@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>
+        <button>Hello</button>
+    </h1>
+    <button class="hello1 hello2 hello3">Hello2</button>
+    <button><h1><h2>Hello3</h2></h1>World</button><button draggable="true" id="dragable_event">Hello4</button>
+    <button>Hello5</button> -->
+    <!-- <select>
+        <option value="hello">Hello</option>
+        <option value="hello2">Hello2</option>
+    </select> -->
+    <form>
+        <input type="text" name="" placeholder="Enter Name" id="">
+        <input type="password" name="" placeholder="Enter password" id="">
+        <!-- <input type="submit" value="Submit" id="submitBtn"> -->
+        <button type="submit" id="submitBtn">Submit</button>
+    </form>
+    <!-- <a href="https://www.google.com">Click here for google</a> -->
+</body>
+<script>
+    // let sel = document.querySelector("select");
+    // sel.addEventListener('click', (e)=>{
+    //     console.log(e.target.value);
+    // })
+    // let button = document.querySelectorAll("button");
+    // let dragBtn = document.getElementById("dragable_event");
+    // // dragBtn.addEventListener('dragstart', function(e) {
+    // //     console.log(e);
+    // //     console.log("started");
+    // // })
+    // // let hbtn = document.querySelector(".hello2");
+    // // Making a button(hello2) hidden and unhidden by clicking on hello4
+    // // dragBtn.addEventListener('click',function(){
+    // //     hbtn.hidden = !hbtn.hidden; //(! operator is changing from true to false and vise-versa.)
+    // //     console.log("Ended");
+    // // })
+    // for(let i=0; i<button.length; i++) {
+    //     button[i].addEventListener('click', function (event){
+    //         console.log(event)
+    //         event.target.addEventListener('click', hello2);
+    //     })
+    // }
+    // function hello2() {
+    //     console.log("hello world");
+    // }
+
+    // function hello(e) {
+    //     console.log(e)
+    // }
+    let submitBtn = document.getElementById("submitBtn");
+    // let anchor = document.querySelector("a");
+    submitBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        console.log(e);
+    })
+</script>
+</html>

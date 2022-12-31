@@ -1,0 +1,396 @@
+1. Basics -> All clear. -> Done
+2. Events and event handling. event object -> Done
+3. EventListner callback , inline event handler. -> Done
+4. Nodelist, node, element and etc. -> Done
+5. innerhtml, innertext, -> Done
+6. Elements and its functions :-  createElement, removeChild, appendChild, replaceChild, write. -> Done
+7. localstorage. (including JSON object) -> Done
+8. implementation using array and object. -> Done
+9. File handling.
+11. Array -> map, filter, reduce, sort, reverse
+12. Searching, Cart, Slider
+10. URL query -> Fetching data from url.
+13. API call karna, using API data -> Will make some sample API.
+get, post, patch, delete, put
+14. Error Handling in JS.
+15. Transition and scalar
+16. Promises, getter, setter, closure, lexical scoping, prototype chaining
+17. Constructor, this keyword, super keyword
+
+JSON :- JS object Notation
+
+17. DSA -> Rotating array, linked list, 2-D array
+
+TP (Time pass) -> File Handling, Web Automation, Web Scrapping.
+File Handling:- File Manager or folder manager, cat command of linux, touch command of cmd. fs
+Web Automation :- async await, node, css selectors, puppeteer
+Web Scrapping :- 
+
+
+
+e.preventDefault() :- e.preventDefault is use to cancel the default event of an element.
+
+LocalStorage:- 
+1. setItem :- It is use to setItem into the localStorage.
+2. getItem :- It is use to get the Item from the localStorage.
+3. remove :- It is use to delete a specific item from the localStorage
+4. clear :- It is use to clear whole localStorage.
+
+
+
+
+
+1. createElement :- To create a HTML element we use createElement.
+2. removeChild:- If we want to remove a HTML element we use remove child.
+3. appendChild :- It is used to add an HTML element.
+4. replaceChild :- It is used to replace an exisiting child with new child.
+5. write :- It is use to write into the HTML element in text format.
+
+
+25 -> Sun - Sat
+
+
+=> Difference between className and classList ? 
+<div class="class1 class2 class3 class4" ></div>
+classList :- It will give us the list of the target element. :- ['class1', 'class2', 'class3', 'class4'] ; 
+className:- String format me className. :- "class1 class2 class3 class4" ;
+
+1. e.target -> It has all the information related to the element.
+
+=> Difference between NodeList and HTMLCollection
+1. NodeList is an Array which includes all the nodes either it is HTML element, text, or kuch bhi.
+2. HTMLCollection is an Array which includes includes all the HTML elements.
+
+
+=> Difference between innerHTML and innerText:- 
+1. innerHTML will return everthing which is written inside the element.
+2. innerText will return the text written inside the element.
+
+
+
+event.target will give you the element.
+and in case of querySelector we already have element.
+
+
+
+
+
+
+
+
+Importnant events:- 
+1. click.
+2. blur.
+3. copy
+4. cut
+5. mouseover,
+6. mouseenter.
+7. mouseout
+
+. 
+#
+querySelector
+querySelectorAll
+getElementByID
+getElelmentByClassname
+getElementByTag.
+
+
+functions 
+onabort
+: 
+null
+onanimationend
+: 
+null
+onanimationiteration
+: 
+null
+onanimationstart
+: 
+null
+onauxclick
+: 
+null
+onbeforecopy
+: 
+null
+onbeforecut
+: 
+null
+onbeforeinput
+: 
+null
+onbeforematch
+: 
+null
+onbeforepaste
+: 
+null
+onbeforexrselect
+: 
+null
+onblur
+: 
+null
+oncancel
+: 
+null
+oncanplay
+: 
+null
+oncanplaythrough
+: 
+null
+onchange
+: 
+null
+click
+: 
+null
+onclose
+: 
+null
+oncontextlost
+: 
+null
+oncontextmenu
+: 
+null
+oncontextrestored
+: 
+null
+oncopy
+: 
+null
+oncuechange
+: 
+null
+oncut
+: 
+null
+ondblclick
+: 
+null
+ondrag
+: 
+null
+ondragend
+: 
+null
+ondragenter
+: 
+null
+ondragleave
+: 
+null
+ondragover
+: 
+null
+ondragstart
+: 
+null
+ondrop
+: 
+null
+ondurationchange
+: 
+null
+onemptied
+: 
+null
+onended
+: 
+null
+onerror
+: 
+null
+onfocus
+: 
+null
+onformdata
+: 
+null
+onfullscreenchange
+: 
+null
+onfullscreenerror
+: 
+null
+ongotpointercapture
+: 
+null
+oninput
+: 
+null
+oninvalid
+: 
+null
+onkeydown
+: 
+null
+onkeypress
+: 
+null
+onkeyup
+: 
+null
+onload
+: 
+null
+onloadeddata
+: 
+null
+onloadedmetadata
+: 
+null
+onloadstart
+: 
+null
+onlostpointercapture
+: 
+null
+
+
+mousedown
+mouseenter
+mouseleave
+mousemove
+mouseout
+mouseover
+mouseup
+mousewheel
+
+
+onpaste
+: 
+null
+onpause
+: 
+null
+onplay
+: 
+null
+onplaying
+: 
+null
+onpointercancel
+: 
+null
+onpointerdown
+: 
+null
+onpointerenter
+: 
+null
+onpointerleave
+: 
+null
+onpointermove
+: 
+null
+onpointerout
+: 
+null
+onpointerover
+: 
+null
+onpointerrawupdate
+: 
+null
+onpointerup
+: 
+null
+onprogress
+: 
+null
+onratechange
+: 
+null
+onreset
+: 
+null
+onresize
+: 
+null
+onscroll
+: 
+null
+onsearch
+: 
+null
+onsecuritypolicyviolation
+: 
+null
+onseeked
+: 
+null
+onseeking
+: 
+null
+onselect
+: 
+null
+onselectionchange
+: 
+null
+onselectstart
+: 
+null
+onslotchange
+: 
+null
+onstalled
+: 
+null
+onsubmit
+: 
+null
+onsuspend
+: 
+null
+ontimeupdate
+: 
+null
+ontoggle
+: 
+null
+ontransitioncancel
+: 
+null
+ontransitionend
+: 
+null
+ontransitionrun
+: 
+null
+ontransitionstart
+: 
+null
+onvolumechange
+: 
+null
+onwaiting
+: 
+null
+onwebkitanimationend
+: 
+null
+onwebkitanimationiteration
+: 
+null
+onwebkitanimationstart
+: 
+null
+onwebkitfullscreenchange
+: 
+null
+onwebkitfullscreenerror
+: 
+null
+onwebkittransitionend
+: 
+null
+onwheel
+: 
+null
